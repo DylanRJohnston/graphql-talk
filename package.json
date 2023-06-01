@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "marp presentation.md"
+    "build": "marp presentation.md -o index.html"
   },
   "keywords": [],
   "author": "",
