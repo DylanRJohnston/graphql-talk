@@ -1,0 +1,15 @@
+{
+  "name": "unlocking-your-apis-with-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "marp presentation.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.5.0"
+  }
+}
