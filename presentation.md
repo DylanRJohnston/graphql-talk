@@ -23,6 +23,9 @@ footer: https://dylanj.xyz/graphql-talk
 
 ![bg contain 40%](assets/graphql.svg)
 
+<!-- Work at Qoria formally FamilyZone -->
+<!-- Our experience adopting GraphQl, why we felt it was a good idea, how it went, and what we learnt from the experience -->
+
 ---
 
 # REST is full of lies
@@ -31,7 +34,7 @@ footer: https://dylanj.xyz/graphql-talk
 
 ![bg contain 90%](assets/rest_bffs.excalidraw.svg)
 
-<!-- This is an example of presenter notes -->
+<!-- Using starwars as example data as that matches the GraphQL official documentation -->
 
 ---
 
@@ -61,19 +64,29 @@ Overfetching Underfetching
 
 ---
 
-Hierachal Data
+Hierarchical Data
 ![bg contain right:66% 80%](./assets/heriachal_data.gif)
-
 
 ---
 
-Strongly Typed Schema
-![bg contain right:66% 80%](./assets/strongly_typed.gif)
+## Hierarchical Data in Rest
+
+* `GET /hero/{id} `
+* `GET /hero/{id}/friends`
+* `GET /hero/{id}/spaceships`
+* `GET /hero`
+* `GET /movie/{id}/hero`
+* `GET /movie/{id}/hero/{friends?, spaceships?}`
 
 ---
 
 Versionless Schema
 ![bg contain right:66% 80%](./assets/versionless.gif)
+
+---
+
+Strongly Typed Schema
+![bg contain right:66% 80%](./assets/strongly_typed.gif)
 
 ---
 
@@ -101,6 +114,7 @@ DevX Tooling
 Ok, but how do I build it?
 
 ---
+
 <style scoped>
   p {
     display: flex;
@@ -171,7 +185,7 @@ N+1? Dataloaders.
 
 Pagination (Relay)
 
-![](assets/relay_pagination.png)
+![width:1100px](assets/relay_pagination.png)
 
 ---
 
